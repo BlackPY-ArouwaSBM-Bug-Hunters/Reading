@@ -1,0 +1,56 @@
+The listen() function applies only to stream sockets. 
+It indicates a readiness to accept client connection requests, 
+and creates a connection request queue of length backlog to queue 
+incoming connection requests. Once full, additional connection requests are rejected.
+
+ফাংশন শুধুমাত্র স্ট্রিম সকেটের ক্ষেত্রে প্রযোজ্য। এটি ক্লায়েন্ট সংযোগের অনুরোধগুলি গ্রহণ করার জন্য 
+একটি প্রস্তুতির ইঙ্গিত দেয় এবং আগত সংযোগ অনুরোধগুলি সারিবদ্ধ করার জন্য দৈর্ঘ্য ব্যাকলগের 
+একটি সংযোগ অনুরোধ সারি তৈরি করে। একবার পূর্ণ হয়ে গেলে, অতিরিক্ত সংযোগের অনুরোধ প্রত্যাখ্যান করা হয়।
+
+Buffer structures (or simply “buffers”) are useful as a way to expose the 
+binary data from another object to the Python programmer. They can also be used 
+as a zero-copy slicing mechanism. Using their ability to reference a block of memory, 
+it is possible to expose any data to the Python programmer quite easily.
+
+বাফার স্ট্রাকচার (বা সহজভাবে "বাফার") অন্য বস্তু থেকে পাইথন প্রোগ্রামারের কাছে বাইনারি 
+ডেটা প্রকাশ করার উপায় হিসাবে কার্যকর। এগুলিকে শূন্য-কপি স্লাইসিং প্রক্রিয়া হিসাবেও ব্যবহার করা যেতে পারে। 
+মেমরির একটি ব্লক রেফারেন্স করার তাদের ক্ষমতা ব্যবহার করে, 
+পাইথন প্রোগ্রামারের কাছে যে কোনও ডেটা খুব সহজেই প্রকাশ করা সম্ভব।
+
+The sys module in Python provides various functions and variables that are used to 
+manipulate different parts of the Python runtime environment. It allows operating on 
+the interpreter as it provides access to the variables and functions that interact 
+strongly with the interpreter.
+
+Python-এর sys মডিউল বিভিন্ন ফাংশন এবং ভেরিয়েবল প্রদান করে যেগুলি Python রানটাইম 
+পরিবেশের বিভিন্ন অংশকে ম্যানিপুলেট করতে ব্যবহৃত হয়। এটি ইন্টারপ্রেটারে কাজ করার অনুমতি দেয় 
+কারণ এটি দোভাষীর সাথে দৃঢ়ভাবে ইন্টারঅ্যাক্ট করে এমন ভেরিয়েবল এবং ফাংশনগুলিতে অ্যাক্সেস প্রদান করে। 
+
+Here are some of the functions in Python that allow you to read and write to files: read() : 
+This function reads the entire file and returns a string. readline() : 
+This function reads lines from that file and returns as a string. 
+It fetch the line n, if it is been called nth time.
+
+Overview. The python decode method is used to decode the encoded form of a string. 
+The python decode uses the codecs that are registered for encoding. By default, 
+the python decode uses the UTF-8 encoding value. It is used to convert bytes to string objects.
+
+ওভারভিউ। পাইথন ডিকোড পদ্ধতিটি একটি স্ট্রিংয়ের এনকোড করা ফর্মটি ডিকোড করতে ব্যবহৃত হয়। 
+পাইথন ডিকোড এনকোডিংয়ের জন্য নিবন্ধিত কোডেক ব্যবহার করে। ডিফল্টরূপে, পাইথন ডিকোড UTF-8 
+এনকোডিং মান ব্যবহার করে। এটি বাইটকে স্ট্রিং অবজেক্টে রূপান্তর করতে ব্যবহৃত হয়।
+
+The encode() method encodes the string, using the specified encoding. 
+If no encoding is specified, UTF-8 will be used.
+
+encode() পদ্ধতি নির্দিষ্ট এনকোডিং ব্যবহার করে স্ট্রিংকে এনকোড করে। 
+যদি কোনো এনকোডিং নির্দিষ্ট করা না থাকে, UTF-8 ব্যবহার করা হবে।
+
+Python ascii() Method. ASCII stands for American Standard Code for Information Interchange. 
+It is a character encoding standard that uses numbers from 0 to 127 to represent English characters. 
+For example, ASCII code for the character A is 65, and 90 is for Z. Similarly, 
+ASCII code 97 is for a, and 122 is for z.
+
+পাইথন ascii() পদ্ধতি। ASCII হল আমেরিকান স্ট্যান্ডার্ড কোড ফর ইনফরমেশন ইন্টারচেঞ্জ। 
+এটি একটি অক্ষর এনকোডিং স্ট্যান্ডার্ড যা ইংরেজি অক্ষরগুলিকে উপস্থাপন করতে 0 থেকে 127 পর্যন্ত সংখ্যা ব্যবহার করে। 
+উদাহরণস্বরূপ, A অক্ষরের জন্য ASCII কোড হল 65, এবং 90 হল Z-এর জন্য। একইভাবে, 
+ASCII কোড 97 হল a-এর জন্য এবং 122 হল z-এর জন্য৷
